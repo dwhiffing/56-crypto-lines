@@ -28,7 +28,7 @@ export default class extends Phaser.Scene {
     this.load.on('complete', () => {
       WebFont.load({
         custom: {
-          families: ['RockSalt'],
+          families: ['Grotesk'],
         },
         active: () => {
           progress.destroy()
